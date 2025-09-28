@@ -1,7 +1,7 @@
 import { Form, Button, Col, Row } from "react-bootstrap";
 import SendIcon from "@mui/icons-material/Send";
 
-const PledgeForm = ({ handleData, handleSubmit, formData }) => {
+const PledgeLog = ({ handleData, handleSubmit, formData }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Row>
@@ -49,4 +49,4 @@ const PledgeForm = ({ handleData, handleSubmit, formData }) => {
   );
 };
 
-export default PledgeForm;
+export default PledgeLog;

@@ -5,7 +5,7 @@ import { Container, Row, Col} from "react-bootstrap";
 
 import CustomContainer from "../Components/CustomContainer";
 import { FormHook } from "../utils/hook/FormHook";
-import PledgeForm from "../Components/pledgeForm";
+import PledgeLog from "../Components/PledgeLog";
 import CommunityPledges from "../Components/CommunityPledges";
 import PledgeInfo from "../Components/PledgeInfo";
 import ImpactSection from "../Components/ImpactSection"
@@ -45,7 +45,7 @@ const PledgePage = () => {
             <Col xs={12} md={5} lg={5}>
             {/* Log Recycled Item */}
             <CustomContainer formTitle="Make Your Pledge">
-            <PledgeForm {...form}/>
+            <PledgeLog {...form}/>
           </CustomContainer>
 
 
