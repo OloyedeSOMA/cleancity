@@ -1,0 +1,24 @@
+.accordion-button {
+  color: white;
+  font-weight: bold;
+}
+
+.accordion-item:nth-child(1) .accordion-button {
+  background-color: #1a73e8; /* Blue */
+}
+.accordion-item:nth-child(2) .accordion-button {
+  background-color: #28a745; /* Green */
+}
+.accordion-item:nth-child(3) .accordion-button {
+  background-color: #dc3545; /* Red */
+}
+.accordion-item:nth-child(4) .accordion-button {
+  background-color: #ffc107; /* Yellow */
+}
+.accordion-item:nth-child(5) .accordion-button {
+  background-color: #6f42c1; /* Purple */
+}
+
+.bg-custom{
+    background-color: #147B3B;
+}

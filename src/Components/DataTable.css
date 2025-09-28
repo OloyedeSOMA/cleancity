@@ -1,0 +1,84 @@
+/* Search bar styling */
+.search-input {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Table */
+.custom-table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.custom-table thead {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.custom-table th {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/* Category badges */
+.category-badge {
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.category-badge.e-waste {
+  background-color: #f8d7da;
+  color: #b71c1c;
+}
+
+.category-badge.paper {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.category-badge.glass {
+  background-color: #f3e8ff;
+  color: #6f42c1;
+}
+
+.category-badge.organic {
+  background-color: #d4edda; /* keep your green */
+  color: #155724;
+}
+
+.category-badge.plastic {
+  background-color: #e2e3ff;
+  color: #004085;
+}
+
+.category-badge.metals {
+  background-color: #e2e3ff;
+  color: #0d0d0e;
+}
+
+/* Action icons */
+.action-icon {
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 6px;
+  transition: 0.2s ease-in-out;
+}
+
+.action-icon.edit {
+  color: #0d6efd;
+}
+
+.action-icon.edit:hover {
+  color: #084298;
+}
+
+.action-icon.delete {
+  color: #dc3545;
+}
+
+.action-icon.delete:hover {
+  color: #a71d2a;
+}
