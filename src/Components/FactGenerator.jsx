@@ -1,22 +1,3 @@
-// import Card from 'react-bootstrap/Card';
-
-// const FactGenerator = () => {
-//   return (
-//     <>
-//         <Card style={{ width: '70%', backgroundColor: "#fff"}} className="mb-2 border-0 shadow-xl"text={"dark"}>
-//             <Card.Header className='bg-white border-0' style={{color:"#16A34A"}}>DO YOU KNOW</Card.Header>
-//             <Card.Body  className='bg-white border-0'> 
-//                 <Card.Title>NAME</Card.Title>
-//                 <Card.Text>DESCRIPTION</Card.Text>
-//                 <Card.Link  to="" className='text-success text-decoration-none fw-semibold' style={{cursor:"pointer"}}>shuffle</Card.Link>
-//             </Card.Body>
-//         </Card>
-//     </>
-//   )
-// }
-
-// export default FactGenerator
-
 import  { useState, useEffect } from "react";
 import SyncIcon from '@mui/icons-material/Sync';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
