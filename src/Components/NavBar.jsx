@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Offcanvas } from 'react-bootstrap';
-import icon from "../icon.png"
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -12,7 +11,7 @@ const NavBar = () => {
         <Navbar key={expand} expand={expand} className="bg-body-tertiary">
           <Container fluid>
             <Navbar.Brand href="#" style={{ color: "green" }}>
-              <img src={icon} style={{ width: "50px", height: "40px" }} alt="logo" />
+              <img src="/icon.png" style={{ width: "50px", height: "40px" }} alt="logo" />
               CleanCity+
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
