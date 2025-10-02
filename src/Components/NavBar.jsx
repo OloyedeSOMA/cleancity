@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Offcanvas } from 'react-bootstrap';
-import icon from "../assets/icon.png"
+import icon from "../icon.png"
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
