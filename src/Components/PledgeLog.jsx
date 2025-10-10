@@ -5,7 +5,7 @@ const PledgeLog = ({ handleData, handleSubmit, formData }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Row>
-        <Col md={6} className="mb-3" style={{ maxWidth: '250px', paddingRight: '5px' }}>
+        <Col md={6} className="mb-3 pe-md-2">
           <Form.Label>Your Name *</Form.Label>
           <Form.Control
             name="name"
@@ -14,10 +14,11 @@ const PledgeLog = ({ handleData, handleSubmit, formData }) => {
             value={formData.name || ''}
             onChange={handleData}
             required
-            style={{ height: '40px', width: '100%' }}
+            style={{ height: '40px' }}
           />
         </Col>
-        <Col md={6} className="mb-3" style={{ maxWidth: '250px', paddingLeft: '5px' }}>
+
+        <Col md={6} className="mb-3 ps-md-2">
           <Form.Label>Email Address *</Form.Label>
           <Form.Control
             name="email"
@@ -26,11 +27,12 @@ const PledgeLog = ({ handleData, handleSubmit, formData }) => {
             value={formData.email || ''}
             onChange={handleData}
             required
-            style={{ height: '40px', width: '100%' }}
+            style={{ height: '40px' }}
           />
         </Col>
       </Row>
-      <Form.Group as={Col} className="mb-3" style={{ maxWidth: '505px' }}>
+
+      <Form.Group className="mb-3">
         <Form.Label>Your Pledge *</Form.Label>
         <Form.Control
           name="pledge"
@@ -39,10 +41,11 @@ const PledgeLog = ({ handleData, handleSubmit, formData }) => {
           value={formData.pledge || ''}
           onChange={handleData}
           required
-          style={{ height: '100px', width: '100%' }}
+          style={{ height: '100px' }}
         />
       </Form.Group>
-      <Button type="submit" variant="success" style={{ maxWidth: '505px', height: '40px' }}>
+
+      <Button type="submit" variant="success" className="w-100" style={{ maxWidth: '505px', height: '40px' }}>
         <SendIcon fontSize="small" /> Submit Pledge
       </Button>
     </Form>
