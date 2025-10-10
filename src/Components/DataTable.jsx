@@ -14,7 +14,7 @@ const DataTable = ({ data, editMode, deleteItem }) => {
     const recyleData = search? data.filter((item)=> item.category.toLowerCase().includes(search.toLowerCase())): data;
 
   return (
-    <div className="data-table-container">
+    <div className="data-table-container ">
       {/* Search Input */}
       <Form.Control
         type="text"

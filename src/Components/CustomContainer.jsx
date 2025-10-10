@@ -4,7 +4,7 @@ import "../App.css"
 const CustomContainer = (props) => {
   return (
     <>
-        <Card className="mb-4 shadow-sm animate-card">
+        <Card className="mb-4 shadow-sm animate-card rounded-5 overflow-hidden">
             <Card.Header
                 className="fw-bold bg-success text-white" >{props.formTitle}</Card.Header>
             <Card.Body>

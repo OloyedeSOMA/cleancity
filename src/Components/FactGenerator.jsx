@@ -27,7 +27,7 @@ function FactGenerator() {
   };
 
   return (
-    <div className="animate-card" style={{ maxWidth: "600px", margin: "2rem auto", padding: "1rem", boxShadow: "0 2px 8px rgba(0,0,0,0.1)", borderRadius: "10px" }}>
+    <div className="animate-card rounded-5 overflow-hidden" style={{ maxWidth: "600px", margin: "2rem auto", padding: "1rem", boxShadow: "0 2px 8px rgba(0,0,0,0.1)", borderRadius: "10px" }}>
       
       <h4 style={{ color: "green" }}>Did You Know? <LightbulbIcon style={{ color: "#FFD679", fontSize:"35px" }}/></h4>
       <p>{fact}</p>

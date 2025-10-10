@@ -10,7 +10,7 @@ const NavBar = () => {
       {['sm'].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary">
           <Container fluid>
-            <Navbar.Brand href="#" style={{ color: "green" }}>
+            <Navbar.Brand href="#" style={{ color: "green" }} className="fs-4 fs-md-6">
               <img src="/icon.png" style={{ width: "50px", height: "40px" }} alt="logo" />
               CleanCity+
             </Navbar.Brand>
@@ -21,20 +21,21 @@ const NavBar = () => {
               placement="end"
             >
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} style={{ color: "green" }}>
                   CleanCity+
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav className="justify-content-end flex-grow-1">
 
                   {/* Active link handled with NavLink */}
                   <Nav.Link
                     as={NavLink}
                     to="/"
+                    className="p-4 p-md-2 fs-4"
                     style={({ isActive }) => ({
                       color: isActive ? "green" : "black",
-                      textDecoration: "none", fontWeight: isActive? "700":"400"
+                      textDecoration: "none", fontWeight: isActive? "500":"400"
                     })}
                   >
                     Home
@@ -43,10 +44,10 @@ const NavBar = () => {
                   <Nav.Link
                     as={NavLink}
                     to="/wastes"
-                    
+                    className="p-4 p-md-2 fs-4"
                     style={({ isActive }) => ({
                       color: isActive ? "green" : "black",
-                      textDecoration: "none", fontWeight: isActive? "700":"400"
+                      textDecoration: "none", fontWeight: isActive? "500":"400"
                     })}
                   >
                     Waste Categories
@@ -55,10 +56,10 @@ const NavBar = () => {
                   <Nav.Link
                     as={NavLink}
                     to="/recycling-tracker"
-                    
+                    className="p-4 p-md-2 fs-4"
                     style={({ isActive }) => ({
                       color: isActive ? "green" : "black",
-                      textDecoration: "none", fontWeight: isActive? "700":"400"
+                      textDecoration: "none", fontWeight: isActive? "500":"400"
                     })}
                   >
                     Recycling Tracker
@@ -67,10 +68,10 @@ const NavBar = () => {
                   <Nav.Link
                     as={NavLink}
                     to="/pledge"
-                    
+                    className="p-4 p-md-2 fs-4"
                     style={({ isActive }) => ({
                       color: isActive ? "green" : "black",
-                      textDecoration: "none", fontWeight: isActive? "700":"400"
+                      textDecoration: "none", fontWeight: isActive? "500":"400"
                     })}
                   >
                     Pledge

@@ -7,10 +7,10 @@ const HeroSection = () => {
   return (
     <>
       <Container fluid gap={3} style={{maxWidth:"100%", height:"auto"}} className='animate-card'>
-        <Row className="p-0 m-auto p-md-5 align-items-center">
+        <Row className="p-0 p-md-5  m-0 m-md-auto align-items-center">
           <Col xs={12} md={6} className='pt-0 mt-5'>
             <div style={{color:"white"}}>
-              <h1 style={{fontSize:"50px", fontWeight:"bold"}}>
+              <h1 style={{fontSize:"40px", fontWeight:"bold"}}>
                 Make a <span style={{color:"#86EFAC"}}>Greener</span> World, One Recycle at a Time
               </h1>
               <p>
@@ -23,8 +23,8 @@ const HeroSection = () => {
                   as={Link} 
                   to="/recycling-tracker" 
                   variant="light" 
-                  size="sm" 
-                  style={{color:"#206D3D"}}
+                  size="md" 
+                  style={{color:"#206D3D",marginRight:"10px" }}
                 >
                   Start Tracking
                 </Button>
@@ -32,8 +32,8 @@ const HeroSection = () => {
                 <Button 
                   as={Link} 
                   to="/wastes" 
-                  style={{backgroundColor:"#146A35", border:"none"}} 
-                  size="sm"
+                  style={{backgroundColor:"#146A35", border:"none",  marginLeft:"10px"}} 
+                  size="md"
                 >
                   Learn More
                 </Button>
@@ -41,7 +41,7 @@ const HeroSection = () => {
             </div>
           </Col>
 
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className='mt-4 mt-md-0 mb-4 mb-md-0'>
             <img 
               src={dumpster} 
               className="img-fluid w-100 h-100 object-fit-cover rounded-5" 

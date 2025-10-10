@@ -41,7 +41,7 @@ function Categories() {
         {features.map((item)=>{
           return(
             <>
-              <Card key={item.id} style={{ width: '300px', backgroundColor: "#fff"}} className="mb-2 border-0 shadow-lg"text={"dark"}>
+              <Card key={item.id} style={{ width: '300px', backgroundColor: "#fff"}} className="mb-2 border-0 shadow-lg rounded-5 overflow-hidden"text={"dark"}>
                 <Card.Header className='bg-white border-0' style={{color:"#16A34A"}}>{item.icon}</Card.Header>
                 <Card.Body  className='bg-white border-0'> 
                   <Card.Title>{item.title}</Card.Title>

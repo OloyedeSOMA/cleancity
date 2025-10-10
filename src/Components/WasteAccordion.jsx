@@ -5,8 +5,8 @@ import "../App.css"
 
 function WasteAccordion() {
   return (
-    <Container className="my-5 shadow-lg p-2 md-p-5 rounded-2 animate-card">
-      <p className="mb-4">
+    <Container className="my-5 m-auto shadow-lg p-1 p-md-5 rounded-2 overflow-hidden animate-card">
+      <p className="mb-4 text-align-center w-100">
         Understanding how to sort and dispose of different types of waste is
         crucial for effective recycling and waste management. Expand each
         category below to learn more about proper disposal methods and recycling
